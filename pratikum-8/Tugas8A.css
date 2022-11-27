@@ -1,0 +1,46 @@
+body {
+     display: flex; 
+     min-height: 100vh; 
+     flex-direction: column ; 
+     margin: 0 auto;
+}
+
+header {
+     background-color: rgb(248, 248, 98); 
+     padding: 2rem; 
+     width:80rem; 
+     position:relative; 
+     left: 22rem;
+}
+
+main { 
+    display: flex; 
+    flex: 1; 
+    text-align: center;
+}
+
+nav { 
+    background-color: pink; 
+    flex-direction: row; 
+    flex: 1; 
+    position: relative; 
+    bottom: 5rem;
+}
+
+article { 
+    background-color: white; 
+    flex: 3;
+}
+
+aside { 
+    background-color: aqua; 
+    flex: 1;
+}
+
+footer { 
+    background-color: rgb(248, 248, 98); 
+    padding: 2rem; 
+    width:80rem; 
+    position:relative;
+    left:22rem;
+}
