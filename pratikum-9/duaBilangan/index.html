@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah Dua Bilangan</title>
+</head>
+<body>
+    <h1>Menghitung Jumlah Dua bilangan</h1>
+        <input type="text" id="number1" onchange="math()"></br> + </br>
+        <input type="text" id="number2" onchange="math()"></br> = </br>
+        <input type="text" id="msg" readonly>
+</body>
+</html>
+
+<script type="text/javascript">
+function math() {
+var a = parseInt(document.getElementById("number1").value);
+var b = parseInt(document.getElementById("number2").value);
+var hasil; if(a & b)
+    document.getElementById("msg").value= a + b;
+}
+</script>
+</body>
+</html>
